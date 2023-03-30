@@ -21,8 +21,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](#)
-- Live Site URL: [Add live site URL here](#)
+- Solution URL: [Add solution URL here](https://github.com/IlnaraAckermann/profile-card-component-main)
+- Live Site URL: [Add live site URL here](https://profile-card-component-main-eta-topaz.vercel.app/)
 
 ## My process
 
