@@ -1,0 +1,19 @@
+@media screen and (max-width: 375px) {
+    .portfolio {
+        width: 328px;
+    }
+
+    
+.portfolio .amount-type .amount {
+    padding: 0 26px;
+}
+
+body {
+    background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-size: 200%;
+    background-repeat: no-repeat,no-repeat;
+    background-position:  left -80vh top -67vh, right -79vh bottom -63vh;
+    background-color: var(--primary-soft);
+}
+
+}

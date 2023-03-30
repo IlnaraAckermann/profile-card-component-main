@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: var(--primary-dark);
+    background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat,no-repeat;
+    background-position:  left -40vh top -69vh, right -32vh bottom -88vh;
+    background-color: var(--primary-soft);
+}
+
+
+
+main{
+    display: flex;
+    height: 100svh;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio {
+    height: 375px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 1rem;    
+    background: url(../images/bg-pattern-card.svg) no-repeat top #FFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* -webkit-box-shadow: 0px 20px 50px 10px hsla(229, 23%, 23%,0.3);  */
+    box-shadow: 0px 20px 90px 15px hsla(229, 23%, 23%,0.3);
+}
+
+.portfolio .image{
+    height: 105px;
+    border-radius: 50%;
+    border: #FFF solid 5px;
+    margin-top: 88px;
+}
+
+.portfolio .title{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.portfolio .title .age{
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.portfolio .location{
+    font-size: 14px;
+}
+
+.portfolio .details{
+    display: flex;
+    border-top: gainsboro solid 1px;
+    margin-top: 25px;
+    width: 100%;
+    justify-content: center;
+}
+
+.portfolio .amount-type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 23px;   
+}
+
+.portfolio .amount-type .amount {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 30px;
+}
+
+.portfolio .amount-type .type {
+    font-size: 10px;
+    margin-top: 5px;
+    letter-spacing: 1.5px;
+}
